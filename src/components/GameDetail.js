@@ -123,7 +123,7 @@ const GameDetail = ({pathId}) => {
                 <div className="gallery">
                     {screen.results.map((screen) => (
                         <motion.img 
-                        // layoutId={`image ${pathId}`} 
+                        
                         src={smallImage(screen.image, 1280)} 
                         key={screen.id} 
                         alt="game"/>
